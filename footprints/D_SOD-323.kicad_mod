@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SOD-323 — a happy medium between KiCad’s D_SOD-323 and D_SOD-323_HandSoldering footprints")
+	(descr "SOD-323 — A happy medium between KiCad’s footprints D_SOD-323 (pads are too small) and D_SOD-323_HandSoldering (pads are too big)")
 	(tags "SOD-323")
 	(property "Reference" "REF**"
 		(at 0 -1.85 0)
