@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 5 7.4 180)
 		(layer "F.SilkS")
-		(uuid "c323318f-5f29-4f83-808d-a47d7070ecb5")
+		(uuid "2e848f0f-383d-49cd-8411-d9118705654b")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "CPG135001S30"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "0e84f843-7b4b-4ee2-ae5b-ba338f838686")
+		(uuid "07b1e9a1-58aa-4de8-b2b6-63eebfeb47a4")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4e77c037-988a-404c-bc29-ff43a3ab5110")
+		(uuid "60a3fc99-dbe5-462f-a263-9e0c4332227f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ebaa03a-32a7-4dd9-9e6a-ee559c7dacdf")
+		(uuid "1f0bef97-09ee-48b0-8f2e-d1e86c819acf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -924,7 +924,7 @@
 	)
 	(fp_line
 		(start -4.57 6.99)
-		(end -4.57 5.497884)
+		(end -4.57 5.394717)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -944,7 +944,7 @@
 	)
 	(fp_line
 		(start -1.92 4.65)
-		(end -3.441155 4.65)
+		(end -3.557779 4.65)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -974,15 +974,15 @@
 		(uuid "388e0562-7a4a-4307-81d5-1d91dab83eaf")
 	)
 	(fp_arc
-		(start -3.441155 4.65)
-		(mid -3.727208 5.022792)
-		(end -4.57 5.497884)
+		(start -3.557779 4.65)
+		(mid -3.797918 4.952082)
+		(end -4.57 5.394717)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "User.4")
-		(uuid "76cc240f-abc7-43d9-8a2b-54c235b46c37")
+		(uuid "1a0091d7-bb34-4926-8989-dca55c0f9246")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -5 7.4 0)
@@ -1104,16 +1104,16 @@
 			(gr_poly
 				(pts
 					(arc
-						(start -1.325 -0.452116)
-						(mid -0.482208 -0.927208)
-						(end -0.196155 -1.3)
+						(start -1.066079 1.290075)
+						(mid -1.249229 1.213543)
+						(end -1.325 1.030077)
 					)
-					(xy 1.325 -1.3) (xy 1.325 1.3)
 					(arc
-						(start -1.065 1.3)
-						(mid -1.248848 1.223848)
-						(end -1.325 1.04)
+						(start -1.325 -0.555282)
+						(mid -0.552918 -0.997918)
+						(end -0.312778 -1.300001)
 					)
+					(xy 1.325 -1.300001) (xy 1.325 1.299999)
 				)
 				(width 0)
 				(fill yes)
@@ -1154,33 +1154,33 @@
 			(gr_poly
 				(pts
 					(arc
-						(start 1.325 -0.452116)
-						(mid 0.482208 -0.927208)
-						(end 0.196155 -1.3)
+						(start 1.066079 1.290075)
+						(mid 1.249229 1.213543)
+						(end 1.325 1.030077)
 					)
-					(xy -1.325 -1.3) (xy -1.325 1.3)
 					(arc
-						(start 1.065 1.3)
-						(mid 1.248848 1.223848)
-						(end 1.325 1.04)
+						(start 1.325 -0.555282)
+						(mid 0.552918 -0.997918)
+						(end 0.312778 -1.300001)
 					)
+					(xy -1.325 -1.300001) (xy -1.325 1.299999)
 				)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "0be2fd94-9b3e-49f8-9676-f6e7e8a6c153")
+		(uuid "b62a8a7b-9d26-47aa-9034-ffda37d544ac")
 	)
 	(embedded_fonts no)
 	(model "../3dmodels/HS_CPG135001S30_Choc.step"
 		(offset
-			(xyz -5 -3.75 0.12)
+			(xyz -5 -3.75 0.13)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 180)
+			(xyz 90 -0 180)
 		)
 	)
 	(model "../3dmodels/HS_CPG135001S30_Choc.step"
