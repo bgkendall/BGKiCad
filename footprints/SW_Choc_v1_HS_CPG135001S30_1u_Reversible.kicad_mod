@@ -1,4 +1,4 @@
-(footprint "SW_choc_v1_HS_CPG135001S30_1u_Reversible"
+(footprint "SW_Choc_v1_HS_CPG135001S30_1u_Reversible"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

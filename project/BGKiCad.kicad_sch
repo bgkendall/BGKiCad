@@ -501,7 +501,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_choc_v1_HS_CPG135001S30_1u_Reversible"
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1u_Reversible"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -509,7 +509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGKiCad:SW_choc_v1_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1u_Reversible"
 			(at 67.31 48.26 0)
 			(effects
 				(font
