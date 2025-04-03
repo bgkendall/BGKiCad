@@ -407,13 +407,101 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 62.23 53.34)
-		(uuid "b2a35f2f-cf6a-40d8-9a47-2464e2c9efbe")
+	(junction
+		(at 62.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55f8c79d-8c91-43d3-a812-aea0f40c3b53")
 	)
 	(no_connect
 		(at 35.56 53.34)
 		(uuid "d271f728-8d0e-4b30-bac9-febcc6a8549c")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.34) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24f0154-d1ea-47d1-b03f-4309b1db59e6")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 62.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc73a7ce-8e65-4841-8189-f52d14e6b719")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb71c53-e80f-4a10-b809-b64d7c036bea")
+		(property "Reference" "#PWR03"
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b150779c-cd37-4dff-b2f2-96d68f3f6128")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
@@ -619,6 +707,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 72.39 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b8be664-6be7-429c-ac0a-6920e5e9cece")
+		(property "Reference" "#PWR04"
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eec7ed8f-38f0-4dd0-bdd9-3f63a9845877")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 43.18 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -672,12 +826,148 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ab28085-cd68-43c3-b3d8-a1cc2813bd17")
+			(uuid "0ab28085-cd68-43c3-b3d8-a1cc2813bd18")
 		)
 		(instances
 			(project ""
 				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 67.31 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eacf027f-28ed-4e60-a299-af1ee0add1e1")
+		(property "Reference" "SW2"
+			(at 67.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible"
+			(at 67.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible"
+			(at 67.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9798ff04-d233-4fd8-b535-76aaaf4636ff")
+		)
+		(pin "2"
+			(uuid "175ee817-68db-4e5e-bf75-6a785c6f2327")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 67.31 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f54fe18d-5dd7-4674-9633-9b3eaaaad40e")
+		(property "Reference" "SW3"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "288a5132-432b-4ceb-abd8-be6e86a090f2")
+		)
+		(pin "2"
+			(uuid "1b226fcf-1309-46f0-beed-887c440ebbae")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "SW3")
 					(unit 1)
 				)
 			)

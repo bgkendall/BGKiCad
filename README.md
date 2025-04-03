@@ -11,13 +11,14 @@ The library provides the following footprints:
 A happy medium between KiCad’s footprints `D_SOD-323` (pads are too small) and
 `D_SOD-323_HandSoldering` (pads are too big).
 
-Number of pads: 2
+Pad count: 2
 
-#### SW_Choc_v1_HS_CPG135001S30_1u_Reversible**
+#### SW_Choc_v1_HS_CPG135001S30_1u_Reversible, …1.25u_Reversible, …1.5u_Reversible
 
-Reversible hotswap footprint for Kailh Choc style switches (adapted from [Marbastlib]).
+Reversible hotswap footprints for Kailh Choc style switches (adapted from [Marbastlib]),
+with 1U, 1¼U and 1½U margins.
 
-Number of pads: 2
+Pad count: 2
 
 
 
