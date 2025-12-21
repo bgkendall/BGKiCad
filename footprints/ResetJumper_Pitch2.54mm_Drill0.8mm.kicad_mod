@@ -292,7 +292,7 @@
 			)
 		)
 	)
-	(fp_text user "GND"
+	(fp_text user "RST"
 		(at 2.54 1.9 0)
 		(layer "F.SilkS")
 		(uuid "1aea9baa-f1f9-4393-883c-8bacd7a04b9a")
@@ -303,7 +303,7 @@
 			)
 		)
 	)
-	(fp_text user "RST"
+	(fp_text user "GND"
 		(at 0 1.9 0)
 		(layer "F.SilkS")
 		(uuid "c3a32f14-2d80-46d8-a53d-9c878aa64f48")
@@ -325,23 +325,23 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 1.4 1.4)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "60c383a7-a2a2-4fe2-ae6b-917b87ebbf36")
-	)
-	(pad "2" thru_hole roundrect
-		(at 2.54 0)
 		(size 1.4 1.4)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.2)
-		(chamfer top_right bottom_right)
+		(chamfer top_left bottom_left)
+		(uuid "60c383a7-a2a2-4fe2-ae6b-917b87ebbf36")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "8d9352cb-2131-4e21-b9fc-9a69d16ec262")
 	)
 	(embedded_fonts yes)
