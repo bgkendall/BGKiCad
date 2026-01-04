@@ -13,7 +13,7 @@ A happy medium between KiCad’s footprints `D_SOD-323` (pads are too small) and
 
 Pad count: 2
 
-<img src="images/D_SOD-123.png" alt="D_SOD-123 Footprint" width="136px" height="auto">
+<img src="images/D_SOD-323.png" alt="D_SOD-323 Footprint" width="136px" height="auto">
 
 #### R_Combined_Axial_DIN0207_0603_1608Metric
 
