@@ -4,7 +4,7 @@ My set of KiCad symbols and footprints.
 
 ## Footprints
 
-The library provides the following footprints:
+### Basic Components
 
 #### D_SOD-323
 
@@ -25,14 +25,27 @@ Pad count: 2
 
 <img src="images/R_Combined_Axial_DIN0207_0603_1608Metric.png" alt="R_Combined_Axial_DIN0207_0603_1608Metric Footprint" width="300px" height="auto">
 
-#### SW_Choc_v1_HS_CPG135001S30_1u_Reversible, …1.25u_Reversible, …1.5u_Reversible
 
-Reversible hotswap footprints for Kailh Choc style switches (adapted from [Marbastlib]),
-with 1U, 1¼U and 1½U margins.
+### Reversible Choc Hotswap Sockets
+
+#### SW_Choc_v1_HS_CPG135001S30_Reversible_CtrPlt_1u, …1.25u, …1.5u
+
+Reversible hotswap footprints for Kailh Choc style switches (adapted from [Marbastlib])
+with the shared centre pin hole plated, at 1U, 1¼U and 1½U margins.
 
 Pad count: 2
 
-<img src="images/SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible.png" alt="SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible Footprint" width="867px" height="auto">
+<img src="images/SW_Choc_v1_HS_CPG135001S30_Reversible_CtrPlt_1.25u.png" alt="SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible Footprint" width="867px" height="auto">
+
+#### SW_Choc_v1_HS_CPG135001S30_Reversible_OutPlt_1u, …1.25u, …1.5u
+
+Reversible hotswap footprints for Kailh Choc style switches (adapted from [Marbastlib])
+with the outer pin holes plated, at 1U, 1¼U and 1½U margins.
+
+Pad count: 2
+
+<img src="images/SW_Choc_v1_HS_CPG135001S30_Reversible_OutPlt_1.25u.png" alt="SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible Footprint" width="867px" height="auto">
+
 
 ### Reset, Boot, etc. Test Points
 
