@@ -1457,7 +1457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1u_Reversible_CtrPlt"
 			(at 67.31 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2553,7 +2553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible"
+		(property "Footprint" "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible_CtrPlt"
 			(at 67.31 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2633,7 +2633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible"
+		(property "Footprint" "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible_CtrPlt"
 			(at 67.31 78.74 0)
 			(hide yes)
 			(show_name no)

@@ -130,7 +130,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2-polar test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -143,11 +143,43 @@
 				)
 			)
 		)
+		(property "P1" "3V3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1281d26c-7fa1-4f37-8eae-c64fa0b61e8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P2" "Clk"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f597091b-5a19-42a6-a667-444b0722a222")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6d03e86e-aec2-49c9-9123-2b9729d8b876")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.03 -0.4)
@@ -454,7 +486,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(TP2-Pad1)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive+no_connect")
 			(uuid "1a3a2654-8844-44ae-b25c-55852686e7e5")
 		)
@@ -465,7 +497,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(TP2-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive+no_connect")
 			(uuid "6fd42d02-ba29-4640-a476-88fc3c1e581d")
 		)
@@ -521,7 +553,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2-polar test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -538,7 +570,13 @@
 		(path "/c2e43776-e436-48ee-881e-ac72f69d3f93")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.03 -0.4)
@@ -822,7 +860,7 @@
 			(chamfer_ratio 0.2)
 			(chamfer top_left bottom_left)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "dd0c0006-4cd0-4730-84a3-bd2c0281addd")
 		)
@@ -833,7 +871,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(TP1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive+no_connect")
 			(uuid "d78d4fee-8a3e-4602-9bc7-939ae80187ca")
 		)
@@ -889,7 +927,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2-polar test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -902,11 +940,43 @@
 				)
 			)
 		)
+		(property "P1" "3V3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a55cbb39-1eb6-42e5-b255-9e6652e80dba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P2" "Clk"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1fed9c4-14ae-4c39-8877-5c1cc0957760")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4b4cc89f-a38a-4407-886e-dc08f8a50db9")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.03 -0.4)
@@ -1155,7 +1225,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(TP3-Pad1)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive+no_connect")
 			(uuid "c27751d4-593c-4305-80bd-b3022f380fe3")
 		)
@@ -1166,7 +1236,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(TP3-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive+no_connect")
 			(uuid "62075ab4-e7f7-4efd-93cb-ba99831493fd")
 		)
@@ -1222,7 +1292,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1235,11 +1305,43 @@
 				)
 			)
 		)
+		(property "P1" "GND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db237d24-bb8b-4fb7-bd47-5b5bfa01e2f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P2" "+5V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee6cf984-fbde-480d-a62d-5db57ccf4d62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6171293a-4ec5-466d-8ef2-06def9418e2b")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.03 -0.4)
@@ -1444,7 +1546,7 @@
 			(chamfer_ratio 0.2)
 			(chamfer top_left bottom_left)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "289ee38d-0a15-4dba-8afc-1ac3db0c5f2f")
 		)
@@ -1455,7 +1557,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J1-Pin_2-Pad2)")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive+no_connect")
 			(uuid "13ae5602-376f-4174-a902-3b1e30319a07")
 		)
@@ -1468,7 +1570,7 @@
 			)
 		)
 	)
-	(footprint "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1u_Reversible"
+	(footprint "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1u_Reversible_CtrPlt"
 		(layer "F.Cu")
 		(uuid "3d6d746c-edc3-4efc-8d05-9b8890a8ec34")
 		(at 60.325 39.6875)
@@ -1484,8 +1586,8 @@
 				)
 			)
 		)
-		(property "Value" "CPG135001S30"
-			(at 0 11.37 180)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1u_Reversible"
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "862d16df-13e7-48fa-808e-55564359b1e5")
 			(effects
@@ -1507,7 +1609,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1522,6 +1624,12 @@
 		(path "/28226089-0286-42b0-adaa-df2c51cc9da2")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2556,7 +2664,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "e3d1cae3-796f-4f4b-8f85-eba49d85bff4")
 		)
@@ -2566,7 +2674,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "741817d0-3ebc-49ec-9218-5128f61dcfb8")
 		)
@@ -2575,7 +2683,7 @@
 			(size 1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
 			(options
@@ -2608,7 +2716,7 @@
 			(size 1.2 2.6)
 			(layers "F.Cu")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "ae4a8d70-62e9-4125-ab40-26b30cb14a22")
 		)
@@ -2619,7 +2727,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "7e8d874f-b11d-4eb1-a9b0-d55a1240a088")
 		)
@@ -2628,7 +2736,7 @@
 			(size 1.2 2.6)
 			(layers "B.Cu")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "07d4d2de-ec1d-48bc-bb77-f007d853d622")
 		)
@@ -2637,7 +2745,7 @@
 			(size 1 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
 			(options
@@ -2732,7 +2840,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2745,11 +2853,56 @@
 				)
 			)
 		)
+		(property "P1" "GND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bebb75a-e786-4ed2-896a-e687b9603207")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P2" "I/O"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bef1a6c-b933-4e15-8a4a-147ee892a2f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P3" "Clk"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a33545c-1be1-4c05-be98-191008bbf5fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1c796c58-dad7-443e-b413-2d61938512e2")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
+		(attr allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.03 -0.4)
@@ -2965,7 +3118,7 @@
 			(chamfer_ratio 0.2)
 			(chamfer top_left bottom_left)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "4d9826d3-2af7-429f-a7c2-6eb45fe30055")
 		)
@@ -2976,7 +3129,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J2-Pin_2-Pad2)")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive+no_connect")
 			(uuid "f65b9c2c-ecef-47e6-93f2-d419b066d049")
 		)
@@ -2987,7 +3140,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J2-Pin_3-Pad3)")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive+no_connect")
 			(uuid "7a3117be-0a24-4175-b110-a5f90c841f0d")
 		)
@@ -3000,7 +3153,7 @@
 			)
 		)
 	)
-	(footprint "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible"
+	(footprint "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible_CtrPlt"
 		(layer "F.Cu")
 		(uuid "91bb216e-68ae-4bb1-9aa9-6926f72adc0f")
 		(at 107.95 39.6875)
@@ -3016,8 +3169,8 @@
 				)
 			)
 		)
-		(property "Value" "CPG135001S30"
-			(at 0 11.37 180)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible"
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "e9ecb8d2-4355-4669-84be-4f3ce0c0277b")
 			(effects
@@ -3039,7 +3192,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3054,6 +3207,12 @@
 		(path "/f54fe18d-5dd7-4674-9633-9b3eaaaad40e")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4088,7 +4247,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "d22c1502-1146-44b2-a0d3-5a4e8332196b")
 		)
@@ -4098,7 +4257,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "55448016-dced-44a9-b079-7258fd21b365")
 		)
@@ -4107,7 +4266,7 @@
 			(size 1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
 			(options
@@ -4140,7 +4299,7 @@
 			(size 1.2 2.6)
 			(layers "F.Cu")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "bad8cad4-570b-4e00-a53c-044f9f0a626f")
 		)
@@ -4151,7 +4310,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "b4be83b6-9d94-45bd-8fba-e1db6c2a1acb")
 		)
@@ -4160,7 +4319,7 @@
 			(size 1.2 2.6)
 			(layers "B.Cu")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "ad7a86be-6cd5-49df-8902-6fb6f8ac258e")
 		)
@@ -4169,7 +4328,7 @@
 			(size 1 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
 			(options
@@ -4262,7 +4421,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4279,6 +4438,12 @@
 		(path "/249489c0-ac41-4677-a159-bd5ee4fde8e8")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4468,7 +4633,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(D1-K-Pad1)")
-			(pinfunction "K")
+			(pinfunction "K_1")
 			(pintype "passive+no_connect")
 			(uuid "b00755a9-dc0f-4b61-8b5e-681fe58de6a5")
 		)
@@ -4478,7 +4643,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "A")
+			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "e0d2b7ed-7515-4999-a67e-f482b7a506ac")
 		)
@@ -4535,7 +4700,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4551,6 +4716,12 @@
 		(path "/de088df3-0f76-451d-bf5a-e64f14106bd1")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4777,7 +4948,7 @@
 			)
 		)
 	)
-	(footprint "BGKiCad:SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible"
+	(footprint "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible_CtrPlt"
 		(layer "F.Cu")
 		(uuid "ec97a8e4-a9b3-40a5-b3bc-4100c1fb99f0")
 		(at 81.75625 39.6875)
@@ -4793,8 +4964,8 @@
 				)
 			)
 		)
-		(property "Value" "CPG135001S30"
-			(at 0 13.6525 180)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible"
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "0473ae8b-f5d5-4365-94b1-c8d831849454")
 			(effects
@@ -4816,7 +4987,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4831,6 +5002,12 @@
 		(path "/eacf027f-28ed-4e60-a299-af1ee0add1e1")
 		(sheetname "/")
 		(sheetfile "BGKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5865,7 +6042,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "21652470-abde-4884-bb6d-ecf4d9a06a64")
 		)
@@ -5875,7 +6052,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "b8b3ecf9-a4e2-447e-8118-73b6a22c3768")
 		)
@@ -5884,7 +6061,7 @@
 			(size 1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
 			(options
@@ -5917,7 +6094,7 @@
 			(size 1.2 2.6)
 			(layers "F.Cu")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "8c9c2f0f-edb6-4124-aca7-a8262841e3df")
 		)
@@ -5928,7 +6105,7 @@
 			(layers "*.Cu")
 			(remove_unused_layers no)
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "677d90aa-c6ce-40fb-8847-27ad4413b87b")
 		)
@@ -5937,7 +6114,7 @@
 			(size 1.2 2.6)
 			(layers "B.Cu")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "a1aff148-1f09-433b-ace0-aeebc6a25649")
 		)
@@ -5946,7 +6123,7 @@
 			(size 1 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(SW1-Pad2)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
 			(options
