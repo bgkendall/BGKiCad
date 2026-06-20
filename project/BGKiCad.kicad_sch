@@ -1084,10 +1084,16 @@
 		)
 	)
 	(junction
-		(at 62.23 67.31)
+		(at 115.57 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55f8c79d-8c91-43d3-a812-aea0f40c3b53")
+		(uuid "497f5425-63ad-4093-b68d-54bc5f774bfe")
+	)
+	(junction
+		(at 68.58 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "903f1388-64e6-4095-ba0f-0f247349bad1")
 	)
 	(no_connect
 		(at 35.56 119.38)
@@ -1131,7 +1137,27 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 53.34) (xy 62.23 67.31)
+			(xy 115.57 67.31) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3c196c-3f8c-4e14-8b9e-fdf48dbf541b")
+	)
+	(wire
+		(pts
+			(xy 115.57 53.34) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600b17d1-8b1f-4b77-b46b-c6a8dd238ebe")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 68.58 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 67.31) (xy 62.23 83.82)
+			(xy 68.58 67.31) (xy 68.58 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1151,7 +1177,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 67.31 0)
+		(at 78.74 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1162,7 +1188,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eb71c53-e80f-4a10-b809-b64d7c036bea")
 		(property "Reference" "#PWR03"
-			(at 72.39 73.66 0)
+			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1173,7 +1199,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 72.39 0)
+			(at 78.74 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1183,7 +1209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 67.31 0)
+			(at 78.74 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1194,7 +1220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 67.31 0)
+			(at 78.74 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1205,7 +1231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 67.31 0)
+			(at 78.74 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1261,7 +1287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BGK_Kicad:TestPoint_3LabelledPads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "BGKiCadDemo:TestPoint_3LabelledPads_Pitch2.54mm_Drill0.8mm"
 			(at 41.91 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -1377,7 +1403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGKiCad:D_SOD-323"
+		(property "Footprint" "BGKiCadDemo:D_SOD-323"
 			(at 39.37 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1427,7 +1453,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 67.31 53.34 0)
+		(at 73.66 53.34 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1438,7 +1464,7 @@
 		(dnp no)
 		(uuid "28226089-0286-42b0-adaa-df2c51cc9da2")
 		(property "Reference" "SW1"
-			(at 67.31 45.72 0)
+			(at 73.66 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1447,8 +1473,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1u_Reversible"
-			(at 67.31 48.26 0)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_Reversible_CtrPlt_1u"
+			(at 73.66 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1457,8 +1483,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1u_Reversible_CtrPlt"
-			(at 67.31 48.26 0)
+		(property "Footprint" "BGKiCadDemo:SW_Choc_v1_HS_CPG135001S30_Reversible_CtrPlt_1u"
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1469,7 +1495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1480,7 +1506,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 67.31 53.34 0)
+			(at 73.66 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1578,6 +1604,86 @@
 			(project "BGKiCad"
 				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2cfd5bc0-0905-4b84-819d-4f7f2ddd420b")
+		(property "Reference" "SW6"
+			(at 120.65 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_Reversible_OutPlt_1.5u"
+			(at 120.65 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BGKiCadDemo:SW_Choc_v1_HS_CPG135001S30_Reversible_OutPlt_1.5u"
+			(at 120.65 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c66f93d-da4e-436f-98f5-c1aaf2a282a7")
+		)
+		(pin "2"
+			(uuid "e2259ba2-8c97-4747-930c-d0ad00eecb16")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -1773,7 +1879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGKiCad:BootJumper_Alt_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "BGKiCadDemo:BootJumper_Alt_Pitch2.54mm_Drill0.8mm"
 			(at 40.64 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1877,7 +1983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BGK_Kicad:TestPoint_2LabelledPads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "BGKiCadDemo:TestPoint_2LabelledPads_Pitch2.54mm_Drill0.8mm"
 			(at 41.91 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -1949,7 +2055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 53.34 0)
+		(at 78.74 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1960,7 +2066,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c96b3e2-3180-44d9-915e-7b4f0d1a223a")
 		(property "Reference" "#PWR02"
-			(at 72.39 59.69 0)
+			(at 78.74 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,7 +2077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 58.42 0)
+			(at 78.74 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1981,7 +2087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 53.34 0)
+			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1992,7 +2098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 53.34 0)
+			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2003,7 +2109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 53.34 0)
+			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,7 +2163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGKiCad:BootJumper_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "BGKiCadDemo:BootJumper_Pitch2.54mm_Drill0.8mm"
 			(at 40.64 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2207,7 +2313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 83.82 0)
+		(at 78.74 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2218,7 +2324,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b8be664-6be7-429c-ac0a-6920e5e9cece")
 		(property "Reference" "#PWR04"
-			(at 72.39 90.17 0)
+			(at 78.74 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,7 +2335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 88.9 0)
+			(at 78.74 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2239,7 +2345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 83.82 0)
+			(at 78.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2250,7 +2356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 83.82 0)
+			(at 78.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2261,7 +2367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 83.82 0)
+			(at 78.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2278,6 +2384,84 @@
 			(project "BGKiCad"
 				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94fd68a6-6528-40ff-b425-fead4b899330")
+		(property "Reference" "#PWR07"
+			(at 125.73 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0c3575d-db4a-4279-9503-bfe179cebd16")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2362,6 +2546,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 53.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7f9a710-f46a-48cb-85e5-2d95b8408283")
+		(property "Reference" "SW4"
+			(at 120.65 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_Reversible_OutPlt_1u"
+			(at 120.65 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BGKiCadDemo:SW_Choc_v1_HS_CPG135001S30_Reversible_OutPlt_1u"
+			(at 120.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "001d34d6-671a-4409-bee5-8a5f498a6ee8")
+		)
+		(pin "2"
+			(uuid "5e5e7d11-0373-4644-b7c2-06b2b17ed6fd")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 40.64 97.79 0)
 		(unit 1)
@@ -2393,7 +2657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGK_Kicad:ResetJumper_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "BGKiCadDemo:ResetJumper_Pitch2.54mm_Drill0.8mm"
 			(at 40.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2442,6 +2706,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cea2eb11-2f57-49b9-9df4-986f4a40cae2")
+		(property "Reference" "#PWR011"
+			(at 125.73 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40b54f2d-ac12-483f-9f55-c05822314e39")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db9b23a0-6a91-4c57-b2e8-e69df74777b8")
+		(property "Reference" "#PWR08"
+			(at 125.73 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f81334c-91f5-4f74-bda3-f151d9785219")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 40.64 73.66 90)
 		(unit 1)
@@ -2473,7 +2893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGK_Kicad:R_Combined_Axial_DIN0207_0603_1608Metric"
+		(property "Footprint" "BGKiCadDemo:R_Combined_Axial_DIN0207_0603_1608Metric"
 			(at 40.64 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -2523,7 +2943,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 67.31 67.31 0)
+		(at 120.65 67.31 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2532,9 +2952,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "eacf027f-28ed-4e60-a299-af1ee0add1e1")
-		(property "Reference" "SW2"
-			(at 67.31 59.69 0)
+		(uuid "df657bfb-55ad-42fd-ad0f-9bf4aee83c99")
+		(property "Reference" "SW5"
+			(at 120.65 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2543,8 +2963,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible"
-			(at 67.31 62.23 0)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_Reversible_OutPlt_1.25u"
+			(at 120.65 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2553,8 +2973,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1.25u_Reversible_CtrPlt"
-			(at 67.31 62.23 0)
+		(property "Footprint" "BGKiCadDemo:SW_Choc_v1_HS_CPG135001S30_Reversible_OutPlt_1.25u"
+			(at 120.65 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2565,7 +2985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 62.23 0)
+			(at 120.65 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,7 +2996,87 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 67.31 67.31 0)
+			(at 120.65 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8f9276f-070b-4bbc-bc1b-41007823d89c")
+		)
+		(pin "2"
+			(uuid "17f25265-5d81-4464-ab12-6f94a09f1110")
+		)
+		(instances
+			(project "BGKiCad"
+				(path "/abb3b353-5f5a-4844-894b-b9285bda4930"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 73.66 67.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eacf027f-28ed-4e60-a299-af1ee0add1e1")
+		(property "Reference" "SW2"
+			(at 73.66 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_Reversible_CtrPlt_1.25u"
+			(at 73.66 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BGKiCadDemo:SW_Choc_v1_HS_CPG135001S30_Reversible_CtrPlt_1.25u"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 73.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +3103,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 67.31 83.82 0)
+		(at 73.66 83.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2614,7 +3114,7 @@
 		(dnp no)
 		(uuid "f54fe18d-5dd7-4674-9633-9b3eaaaad40e")
 		(property "Reference" "SW3"
-			(at 67.31 76.2 0)
+			(at 73.66 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2623,8 +3123,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible"
-			(at 67.31 78.74 0)
+		(property "Value" "SW_Choc_v1_HS_CPG135001S30_Reversible_CtrPlt_1.5u"
+			(at 73.66 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2633,8 +3133,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BGK_Kicad:SW_Choc_v1_HS_CPG135001S30_1.5u_Reversible_CtrPlt"
-			(at 67.31 78.74 0)
+		(property "Footprint" "BGKiCadDemo:SW_Choc_v1_HS_CPG135001S30_Reversible_CtrPlt_1.5u"
+			(at 73.66 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,7 +3145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 78.74 0)
+			(at 73.66 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,7 +3156,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 67.31 83.82 0)
+			(at 73.66 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
